@@ -1,0 +1,53 @@
+let raceNumber = Math.floor(Math.random() * 1000);
+console.log(raceNumber);
+
+var EarlyReg = true;
+
+var runnerAge = 55;
+
+
+if (runnerAge >18 && EarlyReg){
+    raceNumber+=1000;
+
+    };
+    console.log(raceNumber);
+        
+
+
+if (runnerAge >18 && EarlyReg) {
+    console.log("Race Time: 9:30 am; Race Number:" + raceNumber);
+    
+    
+
+    
+} else if(runnerAge >18 && !EarlyReg){
+    console.log("Race Time: 11:00 am ; Race Number:" +raceNumber);
+    }
+
+      
+
+if (runnerAge< 18){
+    console.log("Race Time: 12:30pm ; Race Number:" + raceNumber);
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+      
+      
+      
